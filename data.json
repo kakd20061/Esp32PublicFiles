@@ -41,7 +41,7 @@
           "label": "Sieci WiFi",
           "name": "ssid",
           "set": 1,
-          "values": [
+          "value": [
             {
               "value": "10",
               "label": "opcja 1"
