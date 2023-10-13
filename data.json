@@ -86,7 +86,7 @@
           "type": "text",
           "label": "Imię",
           "name": "name",
-          "value": "Jan"
+          "value": "Edyta"
         },
         {
           "type": "password",
