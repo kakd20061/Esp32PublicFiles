@@ -69,6 +69,77 @@
           "name": "reset"
         }
       ]
+    },
+
+        {
+      "name": "test_form",
+      "title": "Formularz Testowy2",
+
+      "members": [
+        {
+          "type": "label",
+          "label": "temperatura",
+          "name": "temperature",
+          "value": "25C"
+        },
+        {
+          "type": "text",
+          "label": "Imię",
+          "name": "name",
+          "value": "Jan"
+        },
+        {
+          "type": "password",
+          "label": "Hasło",
+          "name": "password",
+          "value": ""
+        },
+        {
+          "type": "state",
+          "label": "Zasilanie",
+          "name": "power_supply",
+          "value": true
+        },
+        {
+          "type": "switch",
+          "label": "Ogrzewanie",
+          "name": "heating",
+          "set": false,
+          "autosend": true
+        },
+        {
+          "type": "select",
+          "label": "Sieci WiFi",
+          "name": "ssid",
+          "set": 1,
+          "value": [
+            {
+              "value": "10",
+              "label": "opcja 1"
+            },
+            {
+              "value": "12",
+              "label": "opcja 2"
+            },
+            {
+              "value": "12",
+              "label": "opcja 3"
+            }
+          ]
+        }
+      ],
+      "button": [
+        {
+          "type": "save",
+          "label": "Zapisz",
+          "name": "save"
+        },
+        {
+          "type": "reset",
+          "label": "Resetuj",
+          "name": "reset"
+        }
+      ]
     }
   ]
 }
