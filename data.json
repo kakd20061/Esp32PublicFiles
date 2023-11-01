@@ -30,7 +30,7 @@
           "value": true
         },
         {
-          "type": "switch",
+          "type": "binswitch",
           "label": "Ogrzewanie",
           "name": "heating",
           "set": false,
@@ -101,7 +101,7 @@
           "value": true
         },
         {
-          "type": "switch",
+          "type": "binswitch",
           "label": "Ogrzewanie",
           "name": "heating",
           "set": false,
